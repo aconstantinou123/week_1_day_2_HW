@@ -63,4 +63,8 @@ def volume_of_sphere(number_1)
   return 3.14*(number_1**3)
 end
 
-puts volume_of_sphere(5)
+def fahrenheit_to_celsius(fahr)
+  result = (fahr - 32)* 0.5556
+end
+
+puts fahrenheit_to_celsius(50)
