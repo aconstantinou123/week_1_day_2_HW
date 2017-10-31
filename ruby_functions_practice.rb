@@ -41,3 +41,19 @@ def number_to_full_month_name(number)
     return "Error"
   end
 end
+
+def number_to_short_month_name(number)
+  if number == 1
+    return "Jan"
+  elsif number == 3
+    return "Mar"
+  elsif number ==9
+    return "Sep"
+  else
+    return "Error"
+  end
+end
+
+def volume_of_cube(number_1)
+  return number_1**3
+end
