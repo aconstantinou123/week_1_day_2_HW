@@ -57,3 +57,10 @@ end
 def volume_of_cube(number_1)
   return number_1**3
 end
+
+def volume_of_sphere(number_1)
+  # number_cubed = number_1**3
+  return 3.14*(number_1**3)
+end
+
+puts volume_of_sphere(5)
