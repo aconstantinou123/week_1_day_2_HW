@@ -60,11 +60,11 @@ end
 
 def volume_of_sphere(number_1)
   # number_cubed = number_1**3
-  return 3.14*(number_1**3)
+  volume_1 = 3.14*(number_1**3).round(2)
+  return volume_1 * 1.3
 end
 
 def fahrenheit_to_celsius(fahr)
-  result = (fahr - 32)* 0.5556
+  return (fahr - 32)* 0.5556
 end
-
-puts fahrenheit_to_celsius(50)
+puts volume_of_sphere(5)
